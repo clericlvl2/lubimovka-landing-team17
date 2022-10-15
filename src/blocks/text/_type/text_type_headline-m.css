@@ -1,7 +1,8 @@
-.text_type_headline_size_xl {
+.text_type_headline-m {
   font-family: "Neue Machina";
+
   font-weight: 400;
-  font-size: 56px;
-  line-height: 56px;
+  font-size: 36px;
+  line-height: 38px;
   letter-spacing: -0.01em;
 }
