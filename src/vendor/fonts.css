@@ -1,0 +1,15 @@
+@font-face {
+  src: url(./fonts/neue-machina-400.woff2) format("woff2"),
+    url(./fonts/neue-machina-400.woff) format("woff");
+  font-family: "Neue Machina";
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  src: url(./fonts/formular-400.woff2) format("woff2"),
+    url(./fonts/formular-400.woff) format("woff");
+  font-family: "";
+  font-weight: 400;
+  font-display: swap;
+}
