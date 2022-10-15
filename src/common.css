@@ -1,0 +1,11 @@
+:root {
+  --background: #ecebe8;
+  --background-accent: #b7c09d;
+
+  --background-element-white: #fff;
+  --background-element-dark: #242424;
+  --background-element-accent: var(--background-accent);
+
+  --text-dark-color: var(--background-element-dark);
+  --text-light-color: var(--background);
+}
