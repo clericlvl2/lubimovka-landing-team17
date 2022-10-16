@@ -1,5 +1,6 @@
 .social {
   align-self: flex-end;
+  width: 257px;
 }
 
 .social li:first-child {
