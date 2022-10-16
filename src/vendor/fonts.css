@@ -9,7 +9,7 @@
 @font-face {
   src: url(./fonts/formular-400.woff2) format("woff2"),
     url(./fonts/formular-400.woff) format("woff");
-  font-family: "";
+  font-family: "Formular";
   font-weight: 400;
   font-display: swap;
 }

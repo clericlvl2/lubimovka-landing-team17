@@ -1,0 +1,10 @@
+.menu {
+  width: 913px;
+  padding-right: 29px;
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin: 0;
+  }
+}
