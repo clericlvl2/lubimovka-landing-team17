@@ -1,2 +1,30 @@
 @import "normalize.css";
 @import url(../vendor/fonts.css);
+@import url(../common.css);
+
+@import url(../blocks/text/text.css);
+@import url(../blocks/text/_type/text_type_headline-xs.css);
+@import url(../blocks/text/_type/text_type_headline-s.css);
+@import url(../blocks/text/_type/text_type_headline-m.css);
+@import url(../blocks/text/_type/text_type_headline-l.css);
+@import url(../blocks/text/_type/text_type_headline-xl.css);
+@import url(../blocks/text/_type/text_type_headline-xxl.css);
+@import url(../blocks/text/_type/text_type_headline-xxxl.css);
+@import url(../blocks/text/_type/text_type_body-s.css);
+@import url(../blocks/text/_type/text_type_body-m.css);
+@import url(../blocks/text/_type/text_type_body-l.css);
+@import url(../blocks/text/_type/text_type_caption.css);
+@import url(../blocks/text/_type/);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__img/lead__img.css);
+@import url(../blocks/lead/__paragraph/lead__paragraph.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__wrap/lead__wrap.css);
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__paragraph/about__paragraph.css);
+

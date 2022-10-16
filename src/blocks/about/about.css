@@ -1,2 +1,9 @@
 .about {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-accent);
+  min-height: 396px;
+  max-width: 1440px;
+  padding-left: 360px;
+  padding-top: 79px;
 }
