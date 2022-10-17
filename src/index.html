@@ -4,34 +4,109 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/index.css" />
     <title>Lubimovka</title>
   </head>
   <body>
     <main>
       <section class="video">
-        <div class="video__container"></div>
-        <h2>Заголовок блока с видео</h2>
-        <p>
-          Из этого следует два вывода: с одной стороны, искусство не должно быть
-          равно реальности, потому что иначе оно не будет искусством, с другой
-          стороны – оно должно быть все-таки подобно реальности, иначе мы ничего
-          не поймем, не подключимся и не распознаем замыслы автора. Мне нравится
-          такое определение, что один из видов эстетики – это, грубо говоря,
-          "понимание" чего-то. Если нам нечего понимать, то мы не получим ни
-          удовольствия, ни какого-то чувства, ничего. А для того, чтобы что-то
-          понять, нам должно быть представлено что-то, что не равно само себе.
-          То есть нам показывают или говорят что-то, а мы понимаем, что там есть
-          что-то еще. Вот мы смотрим на античную статую и понимаем, что это –
-          статуя, но похожа на человека. Если она будет абсолютно такая же как
-          человек, как восковая фигура, то мы поймем, что это уже не искусство.
-          Искусство для того, чтобы люди догадались, домыслили, дочувствовали
-          что-то.
-        </p>
-        <div class="video__container">
-          <h2></h2>
+        <div class="video__block video__block_single">
+          <h2 class="video__title">Заголовок блока с видео</h2>
+          <div class="video__item">
+            <iframe
+              width="716"
+              height="403"
+              src="https://www.youtube.com/embed/P92rOD4kLMQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <p class="video__description">
+            Из этого следует два вывода: с одной стороны, искусство не должно
+            быть равно реальности, потому что иначе оно не будет искусством, с
+            другой стороны – оно должно быть все-таки подобно реальности, иначе
+            мы ничего не поймем, не подключимся и не распознаем замыслы автора.
+            Мне нравится такое определение, что один из видов эстетики – это,
+            грубо говоря, "понимание" чего-то. Если нам нечего понимать, то мы
+            не получим ни удовольствия, ни какого-то чувства, ничего. А для
+            того, чтобы что-то понять, нам должно быть представлено что-то, что
+            не равно само себе. То есть нам показывают или говорят что-то, а мы
+            понимаем, что там есть что-то еще. Вот мы смотрим на античную статую
+            и понимаем, что это – статуя, но похожа на человека. Если она будет
+            абсолютно такая же как человек, как восковая фигура, то мы поймем,
+            что это уже не искусство. Искусство для того, чтобы люди догадались,
+            домыслили, дочувствовали что-то.
+          </p>
         </div>
-        <div class="video__container">
-          <h2></h2>
+        <div class="video__block">
+          <h2 class="video__title video__title_centered">Заголовок блока с двумя видео</h2>
+          <div class="video__container video__container_double">
+            <div class="video__item">
+              <iframe
+                width="420"
+                height="236"
+                src="https://www.youtube.com/embed/P92rOD4kLMQ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="video__item">
+              <div class="video__item">
+                <iframe
+                  width="420"
+                  height="236"
+                  src="https://www.youtube.com/embed/P92rOD4kLMQ"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="video__block">
+          <h2 class="video__title video__title_centered">Заголовок блока с тремя видео</h2>
+          <div class="video__container">
+            <div class="video__item">
+              <iframe
+                width="420"
+                height="236"
+                src="https://www.youtube.com/embed/P92rOD4kLMQ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="video__item">
+              <iframe
+                width="420"
+                height="236"
+                src="https://www.youtube.com/embed/P92rOD4kLMQ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="video__item">
+              <iframe
+                width="420"
+                height="236"
+                src="https://www.youtube.com/embed/P92rOD4kLMQ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
         </div>
       </section>
     </main>
