@@ -8,6 +8,9 @@
 @import "../blocks/video/__title/video__title.css";
 @import "../blocks/video/__title/video__title_centered.css";
 @import "../blocks/video/__description/video__description.css";
+@import "../blocks/video/__item/video__item.css";
+@import "../blocks/video/__item/video__item_small.css";
+@import "../blocks/video/__button-play/video__button-play.css";
 
 
 
