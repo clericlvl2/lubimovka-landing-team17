@@ -1,12 +1,10 @@
-.menu__link {
+.navigation__link {
   border-radius: 16px;
+  /* margin-right: 24px; */
   text-decoration: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.menu__link:hover::before {
+.navigation__link:hover::before {
   display: block;
   content: '';
   width: 10px;
@@ -16,7 +14,7 @@
   border-radius: 20px 0px 0px 20px;
 }
 
-.menu__link:hover::after {
+.navigation__link:hover::after {
   display: block;
   content: '';
   width: 10px;

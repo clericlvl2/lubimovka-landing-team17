@@ -17,5 +17,7 @@
 @import url(../blocks/header/__button/header__button.css);
 
 @import url(../blocks/social/social.css);
-@import url(../blocks/menu/menu.css);
-@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/social/__link/social__link.css);
+@import url(../blocks/navigation/navigation.css);
+
+@import url(../blocks/navigation/__link/navigation__link.css);

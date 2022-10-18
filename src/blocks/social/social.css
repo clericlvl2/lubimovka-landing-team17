@@ -1,6 +1,5 @@
 .social {
-  align-self: flex-end;
-  width: 257px;
+  width: 22%;
 }
 
 .social li:first-child {
@@ -14,7 +13,6 @@
 .social::after {
   content: '';
   display: block;
-  content: '';
   width: 1px;
   height: 50px;
   border-right: 1px solid #242424;
@@ -24,7 +22,6 @@
 .social::before {
   content: '';
   display: block;
-  content: '';
   width: 1px;
   height: 50px;
   border-left: 1px solid #242424;
