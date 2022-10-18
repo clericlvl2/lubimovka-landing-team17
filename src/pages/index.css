@@ -1,5 +1,6 @@
 @import "normalize.css";
-/* Video section */
+@import url(../vendor/fonts.css);
+@import url(../common.css);
 @import "../blocks/video/video.css";
 @import "../blocks/video/__container/video__container.css";
 @import "../blocks/video/__container/video__container_2x.css";

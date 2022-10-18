@@ -6,7 +6,7 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 module.exports = {
   mode: "development",
   entry: {
-    main: path.resolve(__dirname, "src/pages/index.js"),
+    main: "./src/pages/index.js",
   },
   output: {
     clean: true,
@@ -15,10 +15,11 @@ module.exports = {
   },
   devServer: {
     static: path.resolve(__dirname, "dist"),
-    port: 5000,
+    port: 5050,
     open: true,
     compress: true,
   },
+  devtool: "inline-source-map",
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "src/index.html"),
