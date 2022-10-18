@@ -1,6 +1,7 @@
 .video__item {
   position: relative;
-  width: 716px;
+  width: 100%;
+  max-width: 716px;
   height: 403px;
   background-image: url('../../../images/video-big-size.jpg');
   background-size: cover;

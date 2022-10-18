@@ -9,6 +9,7 @@
   background-position: top;
   background-repeat: no-repeat;
   cursor: pointer;
+  transition: .4s;
 }
 .video__button-play:hover {
   opacity: .3;

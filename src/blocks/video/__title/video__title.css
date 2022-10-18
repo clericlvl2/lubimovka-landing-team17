@@ -1,5 +1,6 @@
 .video__title {
-  width: 716px;
+  max-width: 716px;
+  width: auto;
   padding: 0;
   margin: 0 0 37px 0;
   font-family: 'Neue Machina';
@@ -7,4 +8,13 @@
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
+}
+@media screen and (max-width: 568px) {
+  .video__title {
+    max-width: 369px;
+    padding-left: 24px;
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 28px;
+  }
 }

@@ -2,7 +2,6 @@
 /* Video section */
 @import "../blocks/video/video.css";
 @import "../blocks/video/__container/video__container.css";
-@import "../blocks/video/__container/video__container_double.css";
 @import "../blocks/video/__block/video__block.css";
 @import "../blocks/video/__block/video__block_single.css";
 @import "../blocks/video/__title/video__title.css";
@@ -11,7 +10,6 @@
 @import "../blocks/video/__item/video__item.css";
 @import "../blocks/video/__item/video__item_small.css";
 @import "../blocks/video/__button-play/video__button-play.css";
-
 
 
 

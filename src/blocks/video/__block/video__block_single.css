@@ -1,3 +1,9 @@
 .video__block_single {
-  width: 716px;
+  padding: 0 32px;
+  max-width: 716px;
+}
+@media screen and (max-width: 568px) {
+  .video__block_single {
+    padding: 0 16px;
+  }
 }

@@ -3,5 +3,11 @@
   justify-content: space-between;
   gap: 59px;
   width: 100%;
+  padding: 0 31px;
   box-sizing: border-box;
+}
+@media screen and (max-width: 568px) {
+  .video__container {
+    padding: 0;
+  }
 }
