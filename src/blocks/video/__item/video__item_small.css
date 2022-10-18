@@ -1,8 +1,0 @@
-.video__item_small {
-  width: 420px;
-  height: 236px;
-  background-image: url('../../../images/video-small-size.jpg');
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-}
