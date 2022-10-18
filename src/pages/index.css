@@ -8,6 +8,8 @@
 
 @import url(../blocks/header/__logo/header__logo.css);
 
+@import url(../blocks/header/__burger/header__burger.css);
+
 @import url(../blocks/header/__list/header__list.css);
 @import url(../blocks/header/__list-social/header__list-social.css);
 @import url(../blocks/header/__menu/header__menu.css);

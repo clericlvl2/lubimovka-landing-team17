@@ -3,11 +3,4 @@
   /*width: 100%;*/
   padding-right: 29px;
   width: 78%;
-
-}
-
-@media screen and (max-width: 320px) {
-  .heade {
-    margin: 0;
-  }
 }

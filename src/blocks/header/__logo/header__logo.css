@@ -3,4 +3,11 @@
   height: 34.89px;
   overflow: inherit;
   margin: 15px 30px 11.11px;
+  z-index: 3;
+}
+
+@media (max-width: 890px) {
+  .header__logo {
+    margin: 24px 19px 0 32px;
+  }
 }

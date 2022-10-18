@@ -27,3 +27,35 @@
   border-left: 1px solid #242424;
   border-color: black;
 }
+
+@media (max-width: 890px) {
+  .social li:first-child {
+    padding-left: 0;
+    padding-top: 24px;
+  }
+
+  .social li:last-child {
+    padding-right: 0;
+    padding-bottom: 26px;
+  }
+
+  .social::after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 1px;
+    border-right: none;
+    border-bottom: 1px solid #242424;
+    border-color: black;
+  }
+
+  .social::before {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 1px;
+    border-left: none;
+    border-top: 1px solid #242424;
+    border-color: black;
+  }
+}
