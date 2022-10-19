@@ -1,11 +1,6 @@
 .video__description {
-  padding: 54px 0 0 0;
-  margin: 0;
-  font-family: 'Formular';
-  font-style: normal;
+  padding-top: 54px;
   font-weight: 300;
-  font-size: 20px;
-  line-height: 28px;
 }
 @media screen and (max-width: 568px) {
   .video__description {

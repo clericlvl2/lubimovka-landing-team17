@@ -1,9 +1,8 @@
 .video {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 98px;
-  width: auto;
+  gap: 98px; */
   padding: 98px 0 47px;
   box-sizing: border-box;
   background-color: #E5E5E5;
