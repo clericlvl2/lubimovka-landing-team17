@@ -5,3 +5,10 @@
   line-height: 24px;
   letter-spacing: -0.01em;
 }
+@media (max-width: 568px) {
+  .text_type_headline-xs {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
