@@ -1,0 +1,7 @@
+.partnership__container {
+  display: grid;
+  grid-template:
+    'title .' 80px
+    'subtitle btn' 84px / 468px 298px;
+  gap: 42px 20px;
+}

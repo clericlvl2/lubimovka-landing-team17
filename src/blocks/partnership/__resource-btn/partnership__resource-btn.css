@@ -1,0 +1,13 @@
+.partnership__resource-btn {
+  height: 56px;
+  margin: 0;
+  padding: 0 20px;
+  grid-area: btn;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  background-color: var(--background-accent);
+}
