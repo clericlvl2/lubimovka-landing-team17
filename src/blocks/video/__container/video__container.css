@@ -1,0 +1,14 @@
+.video__container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(252px, 420px));
+  gap: 58px;
+  width: 100%;
+  padding: 0 31px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+@media screen and (max-width: 568px) {
+  .video__container {
+    padding: 0;
+  }
+}
