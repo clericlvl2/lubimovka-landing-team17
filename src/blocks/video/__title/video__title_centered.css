@@ -1,0 +1,11 @@
+.video__title_centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 568px) {
+  .video__title_centered {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
