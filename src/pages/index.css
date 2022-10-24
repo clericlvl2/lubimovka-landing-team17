@@ -1,3 +1,15 @@
 @import "normalize.css";
 @import url(../vendor/fonts.css);
 @import url(../common.css);
+@import "../blocks/text/text.css";
+@import "../blocks/text/_type/text_type_body-l.css";
+@import "../blocks/text/_type/text_type_body-m.css";
+@import "../blocks/text/_type/text_type_body-s.css";
+@import "../blocks/text/_type/text_type_caption.css";
+@import "../blocks/text/_type/text_type_headline-l.css";
+@import "../blocks/text/_type/text_type_headline-m.css";
+@import "../blocks/text/_type/text_type_headline-s.css";
+@import "../blocks/text/_type/text_type_headline-xl.css";
+@import "../blocks/text/_type/text_type_headline-xs.css";
+@import "../blocks/text/_type/text_type_headline-xxl.css";
+@import "../blocks/text/_type/text_type_headline-xxxl.css";
