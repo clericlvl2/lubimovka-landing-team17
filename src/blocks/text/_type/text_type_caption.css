@@ -4,3 +4,9 @@
   font-size: 14px;
   line-height: 17px;
 }
+@media (max-width: 767px) {
+  .text_type_caption {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
