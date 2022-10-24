@@ -93,3 +93,47 @@
   margin: 0;
   padding: 0;
 }
+
+.initiators {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background);
+  padding-top: 123px;
+
+}
+
+.initiators__title {
+  margin: 0 0 48px 360px;
+  max-width: 358px;
+}
+
+.initiators__wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 210px);
+  grid-auto-flow: column;
+  gap: 30px;
+  margin: 0 0 0 270px;
+}
+
+.initiators__person {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+}
+
+.initiators__photo {
+  width: 100%;
+  height: 100%;
+  margin: 0 0 16px 0;
+}
+
+.initiators__name {
+  max-width: 190px;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+
+.initiators__career {
+  max-width: 177px;
+  align-self: end;
+}
