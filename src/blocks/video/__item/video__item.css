@@ -1,0 +1,18 @@
+.video__item {
+  position: relative;
+  padding-top: 56.25%;
+
+}
+
+.video__item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../images/video-big-size.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}

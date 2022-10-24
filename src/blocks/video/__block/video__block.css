@@ -1,0 +1,8 @@
+.video__block {
+  padding: 0 31px;
+}
+@media screen and (max-width: 568px) {
+  .video__block {
+    padding: 0;
+  }
+}

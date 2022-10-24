@@ -1,0 +1,3 @@
+.video__container_3x {
+  grid-template-columns: repeat(3, minmax(252px, 420px));
+}

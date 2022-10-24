@@ -1,0 +1,4 @@
+.video__container_2x {
+  grid-template-columns: repeat(2, minmax(252px, 420px));
+  max-width: 899px;
+}
