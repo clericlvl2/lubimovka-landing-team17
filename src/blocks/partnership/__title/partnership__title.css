@@ -1,0 +1,13 @@
+.partnership__title {
+  max-width: 410px;
+  margin: 0 0 20px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .partnership__title {
+    max-width: 296px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}

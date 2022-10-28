@@ -1,2 +1,15 @@
 .partnership {
+  min-width: 320px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 71px 0 141px 0;
+  box-sizing: border-box;
+  background-color: var(--background-accent);
+}
+
+@media screen and (max-width: 767px) {
+  .partnership {
+    padding: 56px 0 72px 0;
+  }
 }
