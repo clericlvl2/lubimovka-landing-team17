@@ -1,0 +1,16 @@
+.gallery__image {
+  width: 100%;
+  min-height: 110px;
+  max-height: 251px;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  object-position: center;
+  color: black;
+  cursor: pointer;
+  transition: filter .24s;
+}
+
+.gallery__image:hover {
+  filter: brightness(80%);
+}

@@ -1,0 +1,16 @@
+.gallery__list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(160px, 360px));
+  grid-auto-rows: auto;
+  justify-content: center;
+  gap: 1px 1px;
+  list-style: none;
+}
+
+@media screen and (max-width: 767px) {
+  .gallery__list {
+    grid-template-columns: repeat(2, minmax(160px, 248px));
+  }
+}
