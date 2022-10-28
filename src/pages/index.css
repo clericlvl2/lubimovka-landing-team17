@@ -8,11 +8,13 @@
 @import url(../blocks/text/_type/text_type_body-s.css);
 
 @import url(../blocks/partnership/partnership.css);
-@import url(../blocks/partnership/__subtitle/partnership__subtitle.css);
-@import url(../blocks/partnership/__title/partnership__title.css);
 @import url(../blocks/partnership/__container/partnership__container.css);
+@import url(../blocks/partnership/__content/partnership__content.css);
+@import url(../blocks/partnership/__title/partnership__title.css);
+@import url(../blocks/partnership/__subtitle/partnership__subtitle.css);
 @import url(../blocks/partnership/__resource-btn/partnership__resource-btn.css);
-@import url(../blocks/partnership/__resource-btn-icon/partnership__resource-btn-icon.css);
 @import url(../blocks/partnership/__resource-name/partnership__resource-name.css);
+@import url(../blocks/partnership/__resource-btn-icon/partnership__resource-btn-icon.css);
+
 
 
