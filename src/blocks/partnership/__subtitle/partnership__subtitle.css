@@ -1,4 +1,12 @@
 .partnership__subtitle {
   max-width: 410px;
-  grid-area: subtitle;
+}
+
+@media screen and (max-width: 767px) {
+  .partnership__subtitle {
+    max-width: 260px;
+    margin-left: 36px;
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
