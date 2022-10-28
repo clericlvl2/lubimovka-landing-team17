@@ -5,9 +5,16 @@
 
 @media screen and (max-width: 767px) {
   .gallery__title {
-    margin: 0 0 22px 16px;
+    margin: 0 auto 22px auto;
+
     max-width: 288px;
     font-size: 24px;
     line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .gallery__title {
+    margin: 0 auto 22px auto;
   }
 }

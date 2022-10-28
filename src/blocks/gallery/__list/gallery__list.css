@@ -11,6 +11,6 @@
 
 @media screen and (max-width: 767px) {
   .gallery__list {
-    grid-template-columns: repeat(2, minmax(160px, 260px));
+    grid-template-columns: repeat(2, minmax(160px, 248px));
   }
 }
